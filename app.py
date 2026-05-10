@@ -4,7 +4,7 @@ import gradio as gr
 from google import genai
 
 # Gemini API Key
-client = genai.Client(api_key="AIzaSyAK6HszdXz3-1YmpMDj3IixARJKJhO2xIQ")
+client = genai.Client(api_key="YOUR_API_KEY")
 
 def generate_response(image, text_prompt):
 
